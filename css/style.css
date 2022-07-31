@@ -151,7 +151,7 @@ header ul li:hover a {
     display: inline-block;
     text-decoration: none
 }
-.footer{
+footer{
     background-color: #F7F7F7; padding: 62px 0 60px
 }
 .footer_conteiner{
