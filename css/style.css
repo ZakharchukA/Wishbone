@@ -240,3 +240,9 @@ footer{
 .footer_item_linc{
     display: inline-block;
 }
+
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+
+}
