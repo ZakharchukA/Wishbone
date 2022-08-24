@@ -9,10 +9,8 @@ $(document).ready(function(){
         autoplay:true,
         autoplayTimeout:4000,
         autoplayHoverPause:true,
-        
-
-        
-
+        center: true,
+        dotsSpeed: 200,
         responsive:{
             0:{
                 items:1
