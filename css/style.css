@@ -68,17 +68,18 @@ header ul li:hover a {
 }
 .section_main{
     background-color: #ECE7E4;
-    padding-top: 137px;
-    padding-bottom: 128px;
-    background-image: url('../images/bg_banner.jpg');
-    background-position: right;
-    background-repeat: no-repeat;
+    min-height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 .section_main_conteiner{
     max-width: 1240px;
-    margin: auto
+    width: 100%;
+
 }
-.section_main_conteiner_1{
+.section_main_conteiner p,h1,h3{
     max-width: 509px
 }
 .section_main_subtitle{
@@ -89,6 +90,16 @@ header ul li:hover a {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #645C55; margin-bottom: 20px
+}
+.bg_main{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-image: url("../images/bg_banner.jpg");
+    background-size: cover;
+
 }
 .headline{
     font-family: 'poppinsregular';
@@ -285,3 +296,4 @@ button.owl-dot{
     display: inline-flex;
     align-items: center;
 }
+
