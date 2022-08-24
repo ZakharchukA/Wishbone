@@ -252,3 +252,36 @@ footer{
     box-sizing: border-box;
 
 }
+.owl-nav{
+    display: none;
+}
+
+.owl-dots span{
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    opacity: .5;
+    background: #403E3B;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    transform: scale(.6);
+}
+
+.owl-dots button.owl-dot.active span{
+    opacity: 1;
+    transform: scale(1);
+    transition: .2s;
+
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+button.owl-dot{
+    display: inline-flex;
+    align-items: center;
+}

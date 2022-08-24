@@ -5,6 +5,13 @@ $(document).ready(function(){
         margin:0,
         nav:true,
         navText: [ '', ' ' ],
+        smartSpeed: 800,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        
+
+        
 
         responsive:{
             0:{
@@ -16,4 +23,10 @@ $(document).ready(function(){
             }
         }
     });
+    $('.play').on('click',function(){
+        owl.trigger('play.owl.autoplay',[1000])
+    })
+    $('.stop').on('click',function(){
+        owl.trigger('stop.owl.autoplay')
+    })
 });
