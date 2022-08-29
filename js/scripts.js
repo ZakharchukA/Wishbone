@@ -3,12 +3,12 @@ $(document).ready(function(){
         $( "#dialog" ).dialog({
             autoOpen: false,
             show: {
-                effect: "blind",
-                duration: 400
+                effect: "fade",
+                duration: 600
             },
             hide: {
-                effect: "explode",
-                duration: 400
+                effect: "fade",
+                duration: 600
             }
         });
 
