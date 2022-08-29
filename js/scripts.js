@@ -44,4 +44,8 @@ $(document).ready(function(){
     $('.stop').on('click',function(){
         owl.trigger('stop.owl.autoplay')
     })
+    
 });
+$(document).on('ready', function(){
+    $('.box_how_what').removeAttribute('.hidden');
+})

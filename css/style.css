@@ -437,3 +437,9 @@ button {
     margin: 0;
     width: 100%;
 }
+#dialog{
+    display: none;
+}
+.hidden{
+    display: none;
+}
